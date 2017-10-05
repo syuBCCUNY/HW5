@@ -1,0 +1,4 @@
+Number of dots inside circle: 3120000982
+Number of dots outside circle: 879999018
+Total number of dots: 4000000000
+Ratio of dots landed inside circle to total dots: 0.00000
