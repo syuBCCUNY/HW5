@@ -5,17 +5,17 @@ import java.util.*;
 public class HW5{
 	public static void main(String[] args){
 		
-	double radius = 10;
+	long radius = 10;
 	long insidecirclecount = 0;
 	long outsidecirclecount = 0;
 	long totaldots = 4000000000L;
 	double areaquadcircle = ((Math.PI * Math.pow(radius,2))/4);
-	double areasquare = Math.pow(radius,2); 
-	double randomdot = 0;
+	double areasquare = radius * radius; 
+	Random rand = new Random();
 	
 	for(long dot = 0; dot < totaldots; dot++){
-		randomdot = (Math.random() * areaquadcircle + 1);
-			if (randomdot <= areaquadcircle){
+		int  randot = rand.nextInt(100) + 1;
+			if (randot <= areaquadcircle){
 				insidecirclecount ++;
 			}
 			else 
