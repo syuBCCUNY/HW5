@@ -27,6 +27,6 @@ public class HW5{
 	System.out.println("Number of dots inside circle: " + insidecirclecount);
 	System.out.println("Number of dots outside circle: " + outsidecirclecount);
 	System.out.println("Total number of dots: " + totaldots);
-	System.out.println("Ratio of dots landed inside circle to total dots: " + ratio);	
+	System.out.printf("Ratio of dots landed inside circle to total dots: " + "%.5f" , ratio);	
 	}
 }
